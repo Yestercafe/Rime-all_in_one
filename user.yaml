@@ -1,0 +1,11 @@
+var:
+  last_build_time: 1672753640
+  option:
+    simplification: true
+  previously_selected_schema: wubi86
+  schema_access_time:
+    double_pinyin_flypy: 1672750444
+    "pinyin-simp": 1672747402
+    pinyin_simp: 1672747425
+    wubi86: 1672750450
+    wubi_pinyin: 1672746424
