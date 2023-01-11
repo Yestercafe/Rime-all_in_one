@@ -62,11 +62,13 @@ translator:
 
 reverse_lookup:
   dictionary: pinyin_simp
-  prism: double_pinyin_flypy
   prefix: "z"
   suffix: "'"
-  tips: 〔小鶴〕
-  preedit_format: []
+  tips: 〔全拼〕
+  preedit_format:
+    - xform/([nl])v/$1ü/
+    - xform/([nl])ue/$1üe/
+    - xform/([jqxy])v/$1u/
 
 punctuator:
   import_preset: symbols
