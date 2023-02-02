@@ -5,10 +5,23 @@ customization:
   modified_time: "Tue Jan  3 19:42:28 2023"
   rime_version: 1.5.3
 patch:
-  "style/horizontal": false
-  "style/font_face": FZFW ZhuZi A YuanS D
-  "style/font_point": 13
-  "style/color_scheme": kobeni
+  style:
+    horizontal: false
+    font_face: FZFW ZhuZi A YuanS R
+    font_point: 14
+    color_scheme: green_dark
+    inline_preedit: false
+    layout:
+      min_width: 160
+      min_height: 0
+      border_width: 3
+      margin_x: 12
+      margin_y: 12
+      spacing: 10
+      candidate_spacing: 5
+      hilite_spacing: 4
+      hilite_padding: 2
+      round_corner: 4
 
   "preset_color_schemes/kobeni":
     name: kobeni
@@ -22,3 +35,51 @@ patch:
     hilited_candidate_back_color: 0xCDC3F8
     candidate_text_color: 0x5B49B5
     comment_text_color: 0xAA96F5
+  "preset_color_schemes/green_dark":
+    name: "春夜绿"
+    author: "thepoy"
+    back_color: 0x030303
+    border_color: 0x0A0A0A
+    text_color: 0xFAFAFF
+    hilited_text_color: 0xFFFFFF
+    hilited_back_color: 0x4734D6
+    hilited_candidate_text_color: 0xFFFFFF
+    hilited_candidate_back_color: 0x347440
+    candidate_text_color: 0xFFFFFF
+    comment_text_color: 0xFCFCFC
+  "preset_color_schemes/red_dark":
+    name: "夏日红"
+    author: "thepoy"
+    back_color: 0x030303
+    border_color: 0x0A0A0A
+    text_color: 0xFAFAFF
+    hilited_text_color: 0xFFFFFF
+    hilited_back_color: 0x4734D6
+    hilited_candidate_text_color: 0xFFFFFF
+    hilited_candidate_back_color: 0x4734D6
+    candidate_text_color: 0xFFFFFF
+    comment_text_color: 0xFCFCFC
+  "preset_color_schemes/orange_dark":
+    name: "秋日橙"
+    author: "thepoy"
+    back_color: 0x030303
+    border_color: 0x0A0A0A
+    text_color: 0xFAFAFF
+    hilited_text_color: 0xFFFFFF
+    hilited_back_color: 0x4734D6
+    hilited_candidate_text_color: 0xFFFFFF
+    hilited_candidate_back_color: 0x1D66CD
+    candidate_text_color: 0xFFFFFF
+    comment_text_color: 0xFCFCFC
+  "preset_color_schemes/win10_black":
+    name: "win10黑/冬时蓝"
+    author: "thepoy"
+    back_color: 0x030303
+    border_color: 0x0A0A0A
+    text_color: 0xFAFAFF
+    hilited_text_color: 0xFFFFFF
+    hilited_back_color: 0x4734D6
+    hilited_candidate_text_color: 0xFFFFFF
+    hilited_candidate_back_color: 0xCD661D
+    candidate_text_color: 0xFFFFFF
+    comment_text_color: 0xFCFCFC

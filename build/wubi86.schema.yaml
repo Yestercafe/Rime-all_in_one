@@ -13,7 +13,7 @@ __build_info:
     symbols: 1561218646
     symbols.custom: 0
     wubi86.custom: 1672753156
-    wubi86.schema: 1672752864
+    wubi86.schema: 1673423132
 easy_en:
   comment_format:
     - "xform/^.+$//"
@@ -341,11 +341,12 @@ recognizer:
 reverse_lookup:
   dictionary: pinyin_simp
   preedit_format:
-    []
+    - "xform/([nl])v/$1ü/"
+    - "xform/([nl])ue/$1üe/"
+    - "xform/([jqxy])v/$1u/"
   prefix: z
-  prism: double_pinyin_flypy
   suffix: "'"
-  tips: "〔小鶴〕"
+  tips: "〔全拼〕"
 schema:
   author:
     - "發明人 王永民先生"
